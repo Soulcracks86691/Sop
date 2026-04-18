@@ -15,7 +15,7 @@ from telebot import types
 import pytz
 
 # Initialize attack_loop first
-attack_loop = asyncno.new_event_loop()
+attack_loop = asyncio.new_event_loop()
 
 # Configure logging
 logging.basicConfig(
