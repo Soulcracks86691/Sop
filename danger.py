@@ -24,6 +24,8 @@ logging.basicConfig(
     handlers=[logging.StreamHandler()]
 )
 
+os.makedirs("/tmp/bot_config", exist_ok=True)
+
 # Configuration 
 TOKEN = '8620140195:AAGXAO06jhNA5NQXsIXVvdQyDKKoSqcVqws'
 MONGO_URI = 'mongodb+srv://darkgamer08102010_db_user:1yE4Dc2EnS5j4gEt@cluster0.snbz6ms.mongodb.net/?appName=ClusterO'
